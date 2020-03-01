@@ -164,5 +164,8 @@ img {
 .success {
   background-color: #ddffdd;
   border-left: 6px solid #4CAF50;
+  display: block;
+  width: 100%;
+  padding: 2em;
 }
 /*# sourceMappingURL=main.css.map */
