@@ -112,22 +112,6 @@ img {
   outline: none;
   background: white;
 }
-.log-form input.err {
-  display: block;
-  margin: auto auto;
-  width: 100%;
-  margin-bottom: 2em;
-  padding: 0.5em 0;
-  border: none;
-  border-bottom: 1px solid #eaeaea;
-  padding-bottom: 1.25em;
-  color: #757575;
-  background: lightpink;
-}
-.log-form input.err:focus {
-  outline: none;
-  background: white;
-}
 .log-form .btn {
   display: inline-block;
   background: #1ba0a9;

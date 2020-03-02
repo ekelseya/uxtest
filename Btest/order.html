@@ -18,8 +18,12 @@
 <div class="log-form">
     <h2>Order</h2>
     <form action="ordersucces.html">
-        <input type="text" title="flavor" placeholder="What flavor?" />
-        <input type="text" title="amount" placeholder="How many scoops?" />
+        <label for="flavor">What flavor?</label>
+        <input id="flavor" type="text" title="Choose a flavor" placeholder="vanilla" />
+        <label for="scoops">How many scoops?</label>
+        <input id="scoops" type="text" title="How many scoops?" placeholder="1" />
+        <label for="discount">Enter Discount Code</label>
+        <input id="discount" type="text" title="Discount" placeholder="Discount Code">
         <button type="submit" class="btn">Order Now</button>
     </form>
 </div><!--end log form -->

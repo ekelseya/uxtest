@@ -18,11 +18,12 @@
 <div class="log-form">
     <h2>Login to your account</h2>
     <form action="nousername2.html">
-        <input class="err" type="text" title="username" placeholder="invalid username" />
-        <input type="password" title="password" placeholder="password" />
+        <label for="error" style="color: crimson">Invalid email</label>
+        <input id="error" type="text" title="username" placeholder="email" />
+        <label for="password">Password</label>
+        <input id="password" type="password" title="password" placeholder="password" />
         <button type="submit" class="btn">Login</button>
         <button type="submit" class="btn">Sign up</button>
-        <a class="forgot" href="#">Forgot Username?</a>
     </form>
 </div><!--end log form -->
 
